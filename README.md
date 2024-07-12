@@ -9,5 +9,3 @@
 
 ## Python
 - [Python](https://github.com/alpppano/TIL/tree/master/Python)
-- [python](Python)
-- 
