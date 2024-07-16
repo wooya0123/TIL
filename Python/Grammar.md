@@ -220,7 +220,9 @@ key - value 쌍, **순서와 중복이 없는** 변경 가능한 자료형
 
 ### 멤버십 연산자
 
-in / not in + 컬렉션 연산자
+- in / not in + 컬렉션 연산자
+- key in dict
+  - 딕셔너리는 key만 찾을 수 있음
 ---
 
 ### Style guide
