@@ -9,4 +9,4 @@
 - [Git](ETC/Git.md)
 
 ## Python
-- [Python](https://github.com/alpppano/TIL/tree/master/Python)
+- [기본 문법](Python/Grammar.md)
