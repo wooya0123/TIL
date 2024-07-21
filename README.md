@@ -10,3 +10,4 @@
 
 ## Python
 - [기본 문법](Python/Grammar.md)
+- [함수](Python/Function.md)
