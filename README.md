@@ -12,3 +12,8 @@
 - [기본 문법](Python/Grammar.md)
 - [함수](Python/Function.md)
 - [모듈&반복문&제어문&](Python/Module&Iteration&Control.md)
+- [데이터 구조](Python/Structure_of_data.md)
+- [클래스](Python/Class.md)
+- [에러와 예외](Python/Error&Exception.md)
+- [배열, 정렬, 검색](Python/Array.md)
+- [스택](Python/Stack.md)
