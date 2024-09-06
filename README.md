@@ -18,3 +18,4 @@
 - [배열, 정렬, 검색](Python/Array.md)
 - [스택](Python/Stack.md)
 - [큐](Python/Queue.md)
+- [트리](Python/Tree.md)
