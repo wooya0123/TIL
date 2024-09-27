@@ -505,14 +505,14 @@ article.save()   # 객체를 데이터베이스에 저장
 article.pk       # id 값 확인 (django에서는 id보다 pk를 권장)
 ```
 
-1. **인스턴스 변수 생성 시에 값 할당 (주로 사용)**
+2. **인스턴스 변수 생성 시에 값 할당 (주로 사용)**
 
 ```python
 article = Article(title='second', content='django!')
 article.save()
 ```
 
-1. create() 메서드 활용
+3. create() 메서드 활용
     - 생성~저장까지 한 번에
     - 단, 유효성 검사를 할 수 없음
 
@@ -614,7 +614,7 @@ def index(request):
     - GET 요청의 응답을 로컬에 저장 가능
     - 동일한 URL로 다시 요청할 때 서버 접속하지 않고 저장된 결과 사용
 
-1. **method = “POST”**
+2. **method = “POST”**
 - **조회 외의 모든 부분에 사용**
     - POST 요청 후 새로운 페이지를 응답하는 것은 어색한 방법 → 기본 페이지로 보내야 함
     - 사용자를 보낸다 = 사용자가 GET 요청을 한 번 더 보내도록 응답하는 것(Redirect)
@@ -676,8 +676,6 @@ def update(request, pk):
     return redirect('articles:detail', article.pk)
 ```
 
-<aside>
-💡
 
 ### Delete
 
@@ -889,7 +887,7 @@ STATICFILES_DIRS =[
     - 이미지 객체가 DB에 저장 X → 이미지 파일의 경로 문자열이 저장됨
 1. MEDIA_ROOT
 - 미디어 파일들이 위치하는 디렉토리의 절대 경로
-1. MEDIA_URL
+2. MEDIA_URL
 - MEDIA_ROOT에서 제공되는 미디어 파일(사용자가 업로드한 파일)에 대한 주소를 생성
 
 ```python
@@ -898,7 +896,7 @@ MEDIA_ROOT = BASE_DIR / 'media'   # media 폴더에 미디어 저장
 MEDIA_URL = 'media/'              # 미디어 불러올 때 URL주소가 media/로 시작
 ```
 
-1. MEDIA_ROOT와 MEDIA_URL에 대한 URL 지정
+3. MEDIA_ROOT와 MEDIA_URL에 대한 URL 지정
 
 ```python
 # project의 url.py에 작성
@@ -909,7 +907,7 @@ from django.conf.urls.static import static
 ] + static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
 ```
 
-1. 라이브러리 설치 & model 생성
+4. 라이브러리 설치 & model 생성
 
 ```python
 # Pillow 라이브러리 설치
@@ -922,7 +920,7 @@ class Article(models.Model):
 		image = models.ImageField(blank=True, upload_to='%Y/%M/%d')  # 날짜별로 폴더 생성, 저장
 ```
 
-1. 페이지 수정 & view 함수 수정
+5. 페이지 수정 & view 함수 수정
 
 ```python
 # form 태그에 미디어 받을 수 있도록 enctype 추가
@@ -964,7 +962,7 @@ def update(request, pk):
     return render(request, 'articles/update.html', context)
 ```
 
-1. 이미지 제공하기
+6. 이미지 제공하기
     - URL 속성을 통해 파일의 경로 값 추출
         - 업로드 파일 경로{{ article.image.url }}
         - 업로드 파일의 파일 이름 {{ article.image }}
