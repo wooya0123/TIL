@@ -27,4 +27,5 @@
 - [부트스트랩](Web/Bootstrap&Sementic%20Web.md)
 
 ## Django
-- [프로젝트 생성 ~ 웹사이트 표현](Django/Django.md)
+- [프로젝트 생성 ~ 사용자 관리](Django/Django.md)
+- [Django REST Framework](Django/DRF.md)
