@@ -1,3 +1,4 @@
+# DRF(Djano REST Framework)
 ### Serialization(직렬화)
 
 - 여러 시스템에서 활용하기 위해 데이터 구조나 객체 상태를 나중에 재구성할 수 있는 포맷으로 변환
