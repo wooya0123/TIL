@@ -28,7 +28,10 @@
 
 ## Django
 - [Django 기본 프로젝트 생성](Django/Django.md)
+- [1:N 관계 설정](Django/1toN_Relationship.md)
+- [M:N 관계 설정](Django/MtoN_Relationship.md)
 - [Django REST Framework](Django/DRF.md)
+- [Django Fixtures & Query 개선](Django/Fixtures&Better_Query.md)
 
 ## Database
 - [SQL](Database/SQL.md)
