@@ -29,6 +29,7 @@
 ### JavaScript
 - [DOM](Web/JavaScript/DOM.md)
 - [기본 문법](Web/JavaScript/Basic_syntax.md)
+- [이벤트](Web/JavaScript/Event.md)
 
 ## Django
 - [Django 기본 프로젝트 생성](Django/Django.md)
