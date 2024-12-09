@@ -46,3 +46,4 @@
 - [기본 문법](Vue/Basic_syntax.md)
 - [SFC](Vue/SFC.md)
 - [Router](Vue/Router.md)
+- [Pinia](Vue/Pinia.md)
