@@ -21,16 +21,8 @@
 - [큐](Python/Queue.md)
 - [트리](Python/Tree.md)
 
-## Web
-- [HTML](Web/HTML.md)
-- [CSS](Web/CSS.md)
-- [부트스트랩](Web/Bootstrap&Sementic%20Web.md)
-
-### JavaScript
-- [DOM](Web/JavaScript/DOM.md)
-- [기본 문법](Web/JavaScript/Basic_syntax.md)
-- [이벤트](Web/JavaScript/Event.md)
-- [비동기](Web/JavaScript/Asynchronous.md)
+## Database
+- [SQL](Database/SQL.md)
 
 ## Django
 - [Django 기본 프로젝트 생성](Django/Django.md)
@@ -39,6 +31,16 @@
 - [Django REST Framework](Django/DRF.md)
 - [Django Fixtures & Query 개선](Django/Fixtures&Better_Query.md)
 
-## Database
-- [SQL](Database/SQL.md)
-- 
+## Web
+- [HTML](Web/HTML.md)
+- [CSS](Web/CSS.md)
+- [부트스트랩](Web/Bootstrap&Sementic%20Web.md)
+
+## JavaScript
+- [DOM](Web/JavaScript/DOM.md)
+- [기본 문법](Web/JavaScript/Basic_syntax.md)
+- [이벤트](Web/JavaScript/Event.md)
+- [비동기](Web/JavaScript/Asynchronous.md)
+
+## Vue
+- [기본 문법](Vue/Basic_syntax.md)
